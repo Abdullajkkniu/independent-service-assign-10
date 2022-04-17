@@ -1,0 +1,11 @@
+[
+    {"id":1, "name": "oil change", "price": 100, "description": "lorem ipsum", "img":"https://i.ibb.co/yQwxrfW/travell-1.jpg"},
+    {"id":2, "name": "oil change", "price": 100, "description": "lorem ipsum", "img":"https://i.ibb.co/HFZG9GD/wedding-1.jpg"},
+    {"id":3, "name": "oil change", "price": 100, "description": "lorem ipsum", "img":"https://i.ibb.co/mDspV6G/family-1.jpg"},
+    {"id":4, "name": "oil change", "price": 100, "description": "lorem ipsum", "img":"https://i.ibb.co/b1KhQZQ/model-1.jpg"},
+    {"id":5, "name": "oil change", "price": 100, "description": "lorem ipsum", "img":"https://i.ibb.co/0ydnh9M/university-1.jpg"},
+    {"id":6, "name": "oil change", "price": 100, "description": "lorem ipsum", "img":"https://i.ibb.co/zbjNZpJ/sports.jpg"}
+    
+]
+
+

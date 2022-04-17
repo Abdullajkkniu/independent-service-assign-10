@@ -1,0 +1,28 @@
+.nav-size{
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+    position: fixed;
+    width:100%;
+
+    
+    background-color: rgb(6, 255, 255);
+    
+}
+
+.text-set{
+    text-decoration: none;
+    font-size: 18px;
+}
+.name{
+    margin-left: 15px;
+}
+.link-name{
+    margin-right: 15px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.flexible-item{
+    display: flex;
+}
