@@ -76,13 +76,13 @@ const SignUp = () => {
         <div>
             <h2>Please SignUp</h2>
             <form onSubmit={handleSignUp}>
-                <input className='w-25 d-block mb-3 m-auto p-2 border' onChange={handleEmailChange} type="text" placeholder='Your Email' />
+                <input className='w-25 d-block mb-3 m-auto p-2 border' onChange={handleEmailChange} type="text" placeholder='Your Email' required />
                 {errors?.email && <p>{errors.email}</p> }
         
-                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handlePasswordChange} type="password" placeholder='Your password' />
+                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handlePasswordChange} type="password" placeholder='Your password' required/>
                 {errors?.password && <p>{errors.password}</p> }
 
-                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handleConfirmPasswordChange} type="password" placeholder='Confirm password' />
+                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handleConfirmPasswordChange} type="password" placeholder='Confirm password' required/>
                 {errors?.confirmPassword && <p>{errors.confirmPassword}</p> }
                 
                 <p>Already have an account? <Link to="/login">Login</Link> </p>

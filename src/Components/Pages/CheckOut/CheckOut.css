@@ -1,0 +1,21 @@
+.submit-btn{
+    background-color: antiquewhite;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+
+    
+}
+.bg-colors{
+    background-color: black;
+    padding-bottom: 500px;
+    
+    
+}
+.padding-set{
+    padding-bottom: 150px
+}

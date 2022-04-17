@@ -84,10 +84,10 @@ const Login = () => {
         <div>
             <h2>Please Login</h2>
             <form onSubmit={handleLogin}>
-                <input className='w-25 d-block mb-3 m-auto p-2 border' onChange={handleEmailChange} type="text" placeholder='Your name' />
+                <input className='w-25 d-block mb-3 m-auto p-2 border' onChange={handleEmailChange} type="text" placeholder='Your Email' required/>
                 {errors?.email && <p>{errors.email}</p> }
         
-                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handlePasswordChange} type="password" placeholder='Your password' />
+                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handlePasswordChange} type="password" placeholder='Your password' required />
                 {errors?.password && <p>{errors.password}</p> }
                 <p>Don't have an account? <Link to="/signup">Sign up</Link> </p>
                 <Link to="/reset">Forget Password?</Link>

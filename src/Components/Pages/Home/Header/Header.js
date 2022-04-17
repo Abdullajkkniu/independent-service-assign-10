@@ -26,6 +26,7 @@ const Header = () => {
           <Nav className="flexible">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/checkout">Checkout</Nav.Link>
+            <Nav.Link as={Link} to="/blog">Blogs</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             {
               user ? <Nav.Link onClick={handleSignOut}>SignOut</Nav.Link> : 
