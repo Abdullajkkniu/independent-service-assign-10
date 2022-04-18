@@ -3,8 +3,8 @@
     {"id":2, "name": "Wedding", "price": "$150", "description": "Professional wedding photography in locally and globally", "img":"https://i.ibb.co/HFZG9GD/wedding-1.jpg"},
     {"id":3, "name": "Family event", "price": "$100", "description": "Any family programme is suitable for me.", "img":"https://i.ibb.co/mDspV6G/family-1.jpg"},
     {"id":4, "name": "Model", "price": "$150", "description": "Most professional photography for modeling", "img":"https://i.ibb.co/b1KhQZQ/model-1.jpg"},
-    {"id":5, "name": "University Programme", "price": "$100", "description": "lorem ipsum", "img":"https://i.ibb.co/0ydnh9M/university-1.jpg"},
-    {"id":6, "name": "Sports", "price": "$120", "description": "Professional sports photography", "img":"https://i.ibb.co/zbjNZpJ/sports.jpg"}
+    {"id":5, "name": "Varsity Event", "price": "$100", "description": "Professional photography for university programmes", "img":"https://i.ibb.co/0ydnh9M/university-1.jpg"},
+    {"id":6, "name": "Sports", "price": "$120", "description": "Professional sports photography for globally", "img":"https://i.ibb.co/zbjNZpJ/sports.jpg"}
     
 ]
 

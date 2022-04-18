@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='bg-dark text-white p-4'>
-            <h1 className='p-4 '>Welcome To My Blogs</h1>
+            <h1 className='p-4 text-center'>Welcome To My Blogs</h1>
             <div className='container w-75'>
                 <div className='border mb-4 p-5'>
                 <h6><span className='text-primary'>Question-1 : </span> What is the difference between authorization and authentication?</h6>

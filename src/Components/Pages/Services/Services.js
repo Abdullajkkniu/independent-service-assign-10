@@ -17,7 +17,7 @@ const Services = () => {
     },[])
     return (
         <div className='bg-color'>
-            <h1 className='text-title pb-4'>My Photography Services</h1>
+            <h1 className='text-title pb-4 text-center'>Photography Services</h1>
             
             <div className='container services-size'>
             {
@@ -25,7 +25,7 @@ const Services = () => {
             }
             </div>
             <div className='container'>
-                <h1 className='my-5'>My Recent Works</h1>
+                <h1 className='my-5 text-center'>Recent Works</h1>
             <div className='image-grid1 mt-2'>
                 <img className='w-100' src={image1} alt="" />
                 <img className='w-100' src={image2} alt="" />

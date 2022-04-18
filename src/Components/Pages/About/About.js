@@ -5,12 +5,12 @@ import image1 from '../../../Images/formal.jpg';
 const About = () => {
     return (
         <div className='bg-dark text-white pb-5'>
-            <h1 className='p-3'>About Me</h1>
+            <h1 className='p-3 text-center'>About Me</h1>
             <div className='container set-grid border'>
                 <div>
                     <img className='img-resize w-100' src={image1} alt="" />
                 </div>
-                <div>
+                <div className='p-3'>
                     <h2>Md. Abdul Alim</h2>
                     <p>My Goal: Hello everybody. Today i'm going to disclose my goal. After finishing this course, i will try to get an internship oppertunity to be a professional web developer. Then i will try to get a full time job in any well known IT company. </p>
 

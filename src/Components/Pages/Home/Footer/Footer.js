@@ -7,7 +7,7 @@ const Footer = () => {
     
     return (
         <div className='copy'>
-            <p><small>Copyright © {year} My-photoshot.com</small></p>
+            <p className='text-center'><small>Copyright © {year} My-photoshot.com</small></p>
         </div>
     );
 };

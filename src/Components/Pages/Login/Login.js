@@ -85,11 +85,11 @@ const Login = () => {
     return (
         
         <div>
-            <h2 className='title mt-4'>My-PhotoShot</h2>
+            <h2 className='title mt-4 text-center'>My-PhotoShot</h2>
             <div className='bg-dark text-white border-set container w-25 mt-2 pb-4'>
             
             <div>
-            <h2 className='py-3'>Please Login</h2>
+            <h3 className='py-3'>Please Login</h3>
             <form onSubmit={handleLogin}>
                 <input className='radius-set w-100 d-block mb-3 m-auto p-1 border' onChange={handleEmailChange} type="text" placeholder='Your Email' required/>
                 {errors?.email && <p>{errors.email}</p> }
