@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
+import '../Reset/Reset.css';
 
 const Reset = () => {
     const [email, setEmail] = useState('');
@@ -22,9 +23,10 @@ const Reset = () => {
       }
     return (
         <div>
-            <form>
-                <input onChange={handleEmailChange} type="email" name="email" id="" placeholder='Your email' />
-                <button onClick={async () => {
+          <h5 className='mt-5'>Your email</h5>
+            <form className='w-25 mx-auto'>
+                <input className='email-reset d-block w-100 p-1' onChange={handleEmailChange} type="email" name="email" id="" placeholder='Your email' />
+                <button className='button-colors btn-submit d-block mt-2 p-1 w-100' onClick={async () => {
           await sendPasswordResetEmail(email);
           alert('Sent email');
         }}>Reset</button>

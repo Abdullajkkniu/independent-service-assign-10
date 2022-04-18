@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useCreateUserWithEmailAndPassword,} from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import '../SignUp/SignUp.css';
 
 const SignUp = () => {
     
@@ -73,22 +74,26 @@ const SignUp = () => {
     }, [user]);
         
     return (
-        <div>
-            <h2>Please SignUp</h2>
+        <div className=' container w-25 p-3'>
+            <h2 className='title'>My-PhotoShot</h2>
+            <div className='bg-dark text-white border-size p-3'>
+            <h3 className='p-2'>Create Account</h3>
             <form onSubmit={handleSignUp}>
-                <input className='w-25 d-block mb-3 m-auto p-2 border' onChange={handleEmailChange} type="text" placeholder='Your Email' required />
+                <input className='radius-set w-100 d-block mb-3 m-auto p-1 border' onChange={handleEmailChange} type="text" placeholder='Your Email' required />
                 {errors?.email && <p>{errors.email}</p> }
         
-                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handlePasswordChange} type="password" placeholder='Your password' required/>
+                <input className='radius-set w-100  d-block m-auto p-1 border mb-3' onChange={handlePasswordChange} type="password" placeholder='Your password' required/>
                 {errors?.password && <p>{errors.password}</p> }
 
-                <input className='w-25 d-block m-auto p-2 border mb-3' onChange={handleConfirmPasswordChange} type="password" placeholder='Confirm password' required/>
+                <input className='radius-set w-100  d-block m-auto p-1 border mb-3' onChange={handleConfirmPasswordChange} type="password" placeholder='Confirm password' required/>
                 {errors?.confirmPassword && <p>{errors.confirmPassword}</p> }
-                
-                <p>Already have an account? <Link to="/login">Login</Link> </p>
 
-                <button className='btn btn-primary px-4 d-block m-auto p-2 border'>SIGN UP</button>
+                <button className='w-100 button-colors px-4 d-block m-auto p-1'>SIGN UP</button>
+                <p className='pt-2'> <small>Already have an account? <Link to="/login" className='set-login'>Login</Link></small> </p>
+
+                
             </form>
+            </div>
         </div>
     );
 };

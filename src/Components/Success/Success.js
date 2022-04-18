@@ -1,9 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../Success/Success.css';
 
 const Success = () => {
     return (
-        <div>
-            <h1 className='text-success'>Order Success !</h1>
+        <div className='border container p-5 mt-5'>
+            <h1 className='text-success mt-5'>Order Successfull !</h1>
+            <br />
+            <Link to='/' className='nav-links'>Go Home</Link>
         </div>
     );
 };
