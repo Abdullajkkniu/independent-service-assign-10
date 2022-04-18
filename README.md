@@ -1,2 +1,2 @@
 # My-PhotoShot
-** hello
+* hello
