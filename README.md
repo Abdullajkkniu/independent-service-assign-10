@@ -4,7 +4,8 @@
 * Any client can order the photography package, if they need to get the service.
 * For entering the website, users must log in with their email and password as well as 
 google sign in method.
-#How to make:
+
+# How to make:
 * create requiredAuth and pretect checkout route and also solve reload problem.
 * Make some route and link and testing the route and then commited my work in git.
 * navbar, banner, service section, recent work(additional section) and footer. About me route and blogs route also completed in time.
